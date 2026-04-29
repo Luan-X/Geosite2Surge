@@ -2,7 +2,7 @@ name: Domain List Conversion
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,14 +14,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Run tests
         run: npm test

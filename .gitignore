@@ -43,8 +43,8 @@ domain-list-community/
 jspm_packages/
 
 # iCloud conflict copies
-.gitignore 2
-data/* 2
+.gitignore [0-9]*
+data/* [0-9]*
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
