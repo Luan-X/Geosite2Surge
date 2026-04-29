@@ -1,0 +1,45 @@
+name: Domain List Conversion
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run tests
+        run: npm test
+
+      - name: Clone domain-list-community
+        run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/domain-list-community
+
+      - name: Convert geosite data
+        run: npm run build -- --data-dir /tmp/domain-list-community/data --out-dir data --branch "${GITHUB_REF_NAME}"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ README.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update domain list data [skip ci]"
+            git push origin "${GITHUB_REF_NAME}"
+          fi

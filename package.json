@@ -1,0 +1,16 @@
+{
+  "name": "geosite2surge",
+  "version": "1.0.0",
+  "description": "Geosite to Surge rule converter",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node src/index.js",
+    "test": "node --test",
+    "check": "node --check src/index.js && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

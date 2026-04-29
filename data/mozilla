@@ -1,0 +1,46 @@
+#include:firefox
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,firefoxusercontent.com
+#end include:firefox
+#include:mdn
+DOMAIN-SUFFIX,developer.allizom.org
+DOMAIN-SUFFIX,developer.mozilla.org
+DOMAIN-SUFFIX,mdn.allizom.net
+DOMAIN-SUFFIX,mdn.dev
+DOMAIN-SUFFIX,mdn.mozilla.net
+DOMAIN-SUFFIX,mdn.mozit.cloud
+DOMAIN-SUFFIX,mdnplay.dev
+DOMAIN-SUFFIX,mdnyalp.dev
+
+DOMAIN,mdn.mozillademos.org
+#end include:mdn
+
+DOMAIN-SUFFIX,mozgcp.net
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,mozilla.community
+DOMAIN-SUFFIX,mozilla.net
+DOMAIN-SUFFIX,mozilla.org
+
+# Add-ons
+DOMAIN-SUFFIX,extensionworkshop.com
+
+# Bugzilla
+DOMAIN-SUFFIX,bugzilla.org
+
+# Pocket
+DOMAIN-SUFFIX,getpocket.com
+
+# SeaMonkey
+DOMAIN-SUFFIX,seamonkey-project.org
+
+# Thunderbird
+DOMAIN-SUFFIX,thunderbird.net
+
+# Mozilla Location Service
+# * Overrided by above `mozilla.com`
+# * In March 2024, Mozilla announced the project was being discontinued
+#location.services.mozilla.com
+
+# Mozilla Push Service
+# * Overrided by above `mozilla.com`
+#push.services.mozilla.com

@@ -39,7 +39,12 @@ build/Release
 
 # Dependency directories
 node_modules/
+domain-list-community/
 jspm_packages/
+
+# iCloud conflict copies
+.gitignore 2
+data/* 2
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
