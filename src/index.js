@@ -14,7 +14,7 @@ const RULE_TYPES = new Map([
   ["domain", "DOMAIN-SUFFIX"],
   ["full", "DOMAIN"],
   ["keyword", "DOMAIN-KEYWORD"],
-  ["regexp", "DOMAIN-WILDCARD"]
+  ["regexp", "DOMAIN-REGEX"]
 ]);
 
 export function buildGeosite2Surge(options = {}) {
@@ -331,7 +331,7 @@ function parseAttrs(parts, listName, lineNumber) {
 
 function formatRule(entry, options) {
   const ruleType = RULE_TYPES.get(entry.type);
-  const value = entry.type === "regexp" ? regexToWildcard(entry.value) : entry.value;
+  const value = entry.value;
   const comment = options.keepComment && entry.comment ? `    #${entry.comment}` : "";
   return `${ruleType},${value}${comment}`;
 }

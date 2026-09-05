@@ -25,10 +25,29 @@ test("parses geosite lines with comments and attributes", () => {
   assert.deepEqual(entries[3].attrs, ["-!cn"]);
 });
 
-test("converts common regexp forms to Surge wildcard rules", () => {
+test("converts common regexp forms", () => {
   assert.equal(regexToWildcard("^hses[1-7]?\\.akamaized\\.net$"), "hses*.akamaized.net");
   assert.equal(regexToWildcard("(^|\\.)bilibili3(0[1-9]|1[0-2])\\.xyz$"), "*bilibili3*.xyz");
   assert.equal(regexToWildcard("(^|\\.)[a-z][1-9][0-9][a-z]\\.com$"), "*????.com");
+  assert.equal(regexToWildcard("^?*$"), "*");
+});
+
+test("preserves dotless regexp semantics", (t) => {
+  const root = fs.mkdtempSync(path.join(os.tmpdir(), "geosite2surge-unsafe-regexp-"));
+  t.after(() => fs.rmSync(root, { recursive: true, force: true }));
+
+  const dataDir = path.join(root, "source");
+  const outDir = path.join(root, "data");
+  fs.mkdirSync(dataDir, { recursive: true });
+  fs.writeFileSync(path.join(dataDir, "private"), [
+    "regexp:^?*$ @private",
+    "regexp:^private\\.example$ @private"
+  ].join("\n"), "utf8");
+
+  buildGeosite2Surge({ cwd: root, dataDir, outDir, writeReadme: false });
+  const output = fs.readFileSync(path.join(outDir, "private"), "utf8");
+  assert.match(output, /DOMAIN-REGEX,\^\?\*\$/);
+  assert.match(output, /DOMAIN-REGEX,\^private\\\.example\$/);
 });
 
 test("builds Surge files, expands includes, and writes aggregate attribute files", (t) => {
@@ -73,7 +92,7 @@ test("builds Surge files, expands includes, and writes aggregate attribute files
   assert.match(fs.readFileSync(path.join(outDir, "google"), "utf8"), /#include:android/);
   assert.match(fs.readFileSync(path.join(outDir, "google"), "utf8"), /DOMAIN-SUFFIX,android\.com/);
   assert.match(fs.readFileSync(path.join(outDir, "google"), "utf8"), /DOMAIN-KEYWORD,google/);
-  assert.match(fs.readFileSync(path.join(outDir, "ads"), "utf8"), /DOMAIN-WILDCARD,g\*\.googlevideo\.com/);
+  assert.match(fs.readFileSync(path.join(outDir, "ads"), "utf8"), /DOMAIN-REGEX,\^g\[0-9\]\+\\\.googlevideo\\\.com\$/);
 
   const china = fs.readFileSync(path.join(outDir, "china"), "utf8");
   assert.match(china, /DOMAIN-SUFFIX,android\.com/);
