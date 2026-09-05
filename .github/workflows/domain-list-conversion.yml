@@ -48,6 +48,8 @@ jobs:
           if git show-ref --verify --quiet refs/remotes/origin/generated; then
             git switch --force-create generated refs/remotes/origin/generated
           else
+            git reset --hard HEAD
+            git clean -fdx
             git switch --orphan generated
           fi
 
