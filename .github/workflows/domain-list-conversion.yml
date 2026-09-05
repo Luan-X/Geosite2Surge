@@ -33,34 +33,18 @@ jobs:
         run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git /tmp/domain-list-community
 
       - name: Convert geosite data
-        run: npm run build -- --data-dir /tmp/domain-list-community/data --out-dir data --branch generated
+        run: npm run build -- --data-dir /tmp/domain-list-community/data --out-dir data --branch main
 
       - name: Publish generated rules
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          publish_dir="$(mktemp -d)"
-          cp -R data "${publish_dir}/data"
-          cp README.md "${publish_dir}/README.md"
-
-          git reset --hard HEAD
-          git clean -fdx
-          git fetch origin generated || true
-          if git show-ref --verify --quiet refs/remotes/origin/generated; then
-            git switch --force-create generated refs/remotes/origin/generated
-          else
-            git switch --orphan generated
-          fi
-
-          git rm -r --ignore-unmatch .
-          cp -R "${publish_dir}/data" data
-          cp "${publish_dir}/README.md" README.md
-          git add data/ README.md
+          git add -f data/ README.md
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Update domain list data [skip ci]"
-            git push origin generated
+            git push origin HEAD:main
           fi
