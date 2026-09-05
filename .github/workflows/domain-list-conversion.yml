@@ -44,12 +44,12 @@ jobs:
           cp -R data "${publish_dir}/data"
           cp README.md "${publish_dir}/README.md"
 
+          git reset --hard HEAD
+          git clean -fdx
           git fetch origin generated || true
           if git show-ref --verify --quiet refs/remotes/origin/generated; then
             git switch --force-create generated refs/remotes/origin/generated
           else
-            git reset --hard HEAD
-            git clean -fdx
             git switch --orphan generated
           fi
 
