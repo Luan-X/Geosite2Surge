@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,now-ashare.com
 # viu.tv
 DOMAIN-SUFFIX,viu.tv
 DOMAIN,api.viu.now.com
-DOMAIN-WILDCARD,ewcdn*.nowe.com
+DOMAIN-REGEX,^ewcdn[0-9]+\.nowe\.com$
 
 # viu.com
 DOMAIN-SUFFIX,viu.com

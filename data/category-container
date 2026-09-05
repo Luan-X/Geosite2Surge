@@ -9,4 +9,4 @@ DOMAIN-SUFFIX,registry.gitlab.com
 DOMAIN-SUFFIX,registry.k8s.io
 
 
-DOMAIN-WILDCARD,*.dkr.ecr.*.amazonaws.com
+DOMAIN-REGEX,.+\.dkr\.ecr\.[^\.]+\.amazonaws\.com$

@@ -27,13 +27,14 @@ DOMAIN-SUFFIX,chinahr.com
 DOMAIN-SUFFIX,chrstatic.com
 DOMAIN-SUFFIX,daojia.com
 DOMAIN-SUFFIX,diandao.org
-DOMAIN-SUFFIX,fang.com
-DOMAIN-SUFFIX,sofun.com
-DOMAIN-SUFFIX,soufunimg.com
 DOMAIN-SUFFIX,jxedt.com
 DOMAIN-SUFFIX,jxksw.net
+DOMAIN-SUFFIX,kgdc.cn
+DOMAIN-SUFFIX,kgtest.cn
 DOMAIN-SUFFIX,roomeet.cn
+DOMAIN-SUFFIX,xgo-img.com.cn
 DOMAIN-SUFFIX,xinchong.com
+DOMAIN-SUFFIX,xueche.com
 
 # 转转
 DOMAIN-SUFFIX,zhuancorp.com
@@ -42,3 +43,7 @@ DOMAIN-SUFFIX,zhuanspirit.cn
 DOMAIN-SUFFIX,zhuanspirit.com
 DOMAIN-SUFFIX,zhuanstatic.com
 DOMAIN-SUFFIX,zhuanzhuan.com
+
+# 考试宝
+DOMAIN-SUFFIX,kaoshibao.com
+DOMAIN-SUFFIX,zaixiankaoshi.com

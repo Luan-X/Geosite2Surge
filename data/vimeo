@@ -15,4 +15,4 @@ DOMAIN-SUFFIX,vimeoondemand.com
 DOMAIN-SUFFIX,vimeostatus.com
 DOMAIN-SUFFIX,livestream.com
 
-DOMAIN-WILDCARD,*vod-adaptive.akamaized.net
+DOMAIN-REGEX,^[0-9]+vod-adaptive\.akamaized\.net$

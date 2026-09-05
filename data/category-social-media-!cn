@@ -376,7 +376,6 @@ DOMAIN-SUFFIX,nextstop.com
 DOMAIN-SUFFIX,online-deals.net
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,reachtheworldonfacebook.com
-DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,shopfacebook.com
 DOMAIN-SUFFIX,sportsfacebook.com
 DOMAIN-SUFFIX,sportstream.com
@@ -557,7 +556,15 @@ DOMAIN-SUFFIX,mixi.net
 DOMAIN-SUFFIX,apiok.ru
 DOMAIN-SUFFIX,insideok.ru
 DOMAIN-SUFFIX,odkl.ru
+DOMAIN-SUFFIX,odnoklasniki.by
+DOMAIN-SUFFIX,odnoklasniki.ua
+DOMAIN-SUFFIX,odnoklassniki.am
+DOMAIN-SUFFIX,odnoklassniki.by
+DOMAIN-SUFFIX,odnoklassniki.co.ee
+DOMAIN-SUFFIX,odnoklassniki.eu
+DOMAIN-SUFFIX,odnoklassniki.lv
 DOMAIN-SUFFIX,odnoklassniki.ru
+DOMAIN-SUFFIX,odnoklassniki.tj
 DOMAIN-SUFFIX,ok.me
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,okl.lt
@@ -662,6 +669,7 @@ DOMAIN-SUFFIX,vkpay.io
 DOMAIN-SUFFIX,vkpay.ru
 #end include:vk
 
+DOMAIN-SUFFIX,fansly.com
 DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,truthsocial.com
 

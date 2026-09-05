@@ -12,13 +12,19 @@ DOMAIN-SUFFIX,chaz.fun
 DOMAIN-SUFFIX,huijistatic.com
 DOMAIN-SUFFIX,huijiwiki.com
 
+# MC百科
+DOMAIN-SUFFIX,mcmod.cn
+
 # moegirl
 DOMAIN-SUFFIX,moegirl.org
 DOMAIN-SUFFIX,moegirl.org.cn
 
-# MC百科
-DOMAIN-SUFFIX,mcmod.cn
+# 智汇三农
+DOMAIN-SUFFIX,pwsannong.com
 
 # 求闻百科
 DOMAIN-SUFFIX,qiuwenbaike.cn
 DOMAIN-SUFFIX,qiuwen.wiki
+
+# 汉典
+DOMAIN-SUFFIX,zdic.net

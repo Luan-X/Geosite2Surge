@@ -63,9 +63,13 @@ DOMAIN-SUFFIX,yxhapi.com
 DOMAIN-SUFFIX,yxhhdl.com
 DOMAIN-SUFFIX,yxhimg.com
 #end include:4399
-#include:9game
+#include:aligames
 DOMAIN-SUFFIX,9game.cn
-#end include:9game
+DOMAIN-SUFFIX,aligames.com
+DOMAIN-SUFFIX,jiaoyimao.cn
+DOMAIN-SUFFIX,jiaoyimao.com
+DOMAIN-SUFFIX,lingxigames.com
+#end include:aligames
 #include:bilibili-game
 DOMAIN-SUFFIX,bilibiligame.cn
 DOMAIN-SUFFIX,bilibiligame.co
@@ -78,6 +82,16 @@ DOMAIN-SUFFIX,biligame.net
 # From reverse 1999
 DOMAIN-SUFFIX,sl916.com
 #end include:bluepoch-games
+#include:changyou
+# 搜狐畅游
+DOMAIN-SUFFIX,17173.com
+DOMAIN-SUFFIX,17173cdn.com
+DOMAIN-SUFFIX,changyou.com
+DOMAIN-SUFFIX,cy.com
+DOMAIN-SUFFIX,playcool.com
+DOMAIN-SUFFIX,yeyou.com
+DOMAIN-SUFFIX,yeyoucdn.com
+#end include:changyou
 #include:cowlevel
 DOMAIN-SUFFIX,cowlevel.net
 DOMAIN-SUFFIX,cdncl.net
@@ -90,11 +104,15 @@ DOMAIN-SUFFIX,heroesports.com
 DOMAIN-SUFFIX,shyxhy.com
 DOMAIN-SUFFIX,yingxiong.com
 #end include:herogame
-#include:kurogames
+#include:kurogames @-!cn
+DOMAIN-SUFFIX,kurobbs.com
+DOMAIN-SUFFIX,kurogame.com
+DOMAIN-SUFFIX,kurogame.xyz
+DOMAIN-SUFFIX,kurogames-ads.com
 DOMAIN-SUFFIX,kurogames.com
-
-# Wuthering Waves
 DOMAIN-SUFFIX,aki-game.com
+DOMAIN-SUFFIX,aki-game2.com
+DOMAIN-SUFFIX,wutheringwaves.cn
 #end include:kurogames
 #include:mihoyo-cn
 # 米哈游
@@ -127,11 +145,26 @@ DOMAIN-SUFFIX,yuanshen.com
 DOMAIN-SUFFIX,juequling.com
 
 # Akamai
-DOMAIN-WILDCARD,*-mihayo.akamaized.net
+DOMAIN-REGEX,^.+-mihayo\.akamaized\.net$
 
 # Ads/tracking
 DOMAIN-SUFFIX,log-upload.mihoyo.com
 #end include:mihoyo-cn
+#include:seasun
+# 西山居
+DOMAIN-SUFFIX,seasungames.cn
+DOMAIN-SUFFIX,seasungames.com
+DOMAIN-SUFFIX,seasunwbl.com
+DOMAIN-SUFFIX,xishanju.com
+DOMAIN-SUFFIX,xoyo.com
+DOMAIN-SUFFIX,xoyocdn.com
+
+# 尘白禁区
+DOMAIN-SUFFIX,cbjq.com
+
+# Testplus
+DOMAIN-SUFFIX,testplus.cn
+#end include:seasun
 #include:tencent-games
 DOMAIN-SUFFIX,battlecare.net
 DOMAIN-SUFFIX,gameitop.com
@@ -280,6 +313,11 @@ DOMAIN-SUFFIX,yokaverse.com
 DOMAIN-SUFFIX,zhuoyou.com
 #end include:yokaverse
 
+# 三七互娱
+DOMAIN-SUFFIX,37.com
+DOMAIN-SUFFIX,37.com.cn
+DOMAIN-SUFFIX,37wan.net
+DOMAIN-SUFFIX,37wanimg.com
 # 北京奇客创想科技有限公司
 DOMAIN-SUFFIX,7k7k.com
 # 刀锋盒子 皖B2-20190103-4
@@ -288,6 +326,17 @@ DOMAIN-SUFFIX,9xgame.com
 DOMAIN-SUFFIX,arcaea.cn
 # 《异象回声》游戏官网 沪ICP备2023010411号-1
 DOMAIN-SUFFIX,astral-vector.com
+# 橙光
+DOMAIN-SUFFIX,66rpg.com
+DOMAIN-SUFFIX,cgyouxi.com
+# 多益网络
+DOMAIN-SUFFIX,duoyi.com
+DOMAIN-SUFFIX,duoyigroup.cn
+DOMAIN-SUFFIX,duoyiwangluo.com
+DOMAIN-SUFFIX,ygduoyi.com
+# 终末地-协议终端
+DOMAIN,end-api.shallow.ink
+DOMAIN,end.shallow.ink
 # 飞火游戏
 DOMAIN-SUFFIX,feihuo.com
 # 九九互动 粤ICP备19068416号
@@ -298,27 +347,51 @@ DOMAIN-SUFFIX,fxt365.com
 DOMAIN-SUFFIX,gameabc.com
 # 游戏魅 合肥启云软件 皖B2-20160087-3
 DOMAIN-SUFFIX,gamemei.com
+# 乐元素
+DOMAIN-SUFFIX,happyelements.com
+DOMAIN-SUFFIX,leyuansu.com
 # Enhance Gaming
 DOMAIN-SUFFIX,heavenlywind.cc
+# 完美世界 (Note: geosite:wanmei contains more non-game domains)
+DOMAIN-SUFFIX,laohu.com
+DOMAIN-SUFFIX,wanmei.com
+DOMAIN-SUFFIX,wmsj.cn
+DOMAIN-SUFFIX,wmupd.com
 # 乐都网 浙ICP备2024091002号-2
 DOMAIN-SUFFIX,ledu.com
 # 龙图游戏 京ICP备11023195号
 DOMAIN-SUFFIX,longtugame.com
 # 北京慕飞科技 京ICP备20006112号-2
 DOMAIN-SUFFIX,morefreegame.com
+# 途游
+DOMAIN-SUFFIX,nalrer.cn
+DOMAIN-SUFFIX,tuyoo.com
+# 叠纸游戏
+DOMAIN-SUFFIX,nikkigames.cn
+DOMAIN-SUFFIX,nikkigames.com.cn
+DOMAIN-SUFFIX,papegames.cn
+DOMAIN-SUFFIX,papegames.com
 # Phira
 DOMAIN-SUFFIX,phira.cn
+# 盛趣游戏 浙ICP备17039406号-1
+DOMAIN-SUFFIX,sdo.com
+DOMAIN-SUFFIX,shengqugames.com
+DOMAIN-SUFFIX,zjshulong.com
+# 贪玩游戏
+DOMAIN-SUFFIX,tanwan.com
+DOMAIN-SUFFIX,twyx.cn
+DOMAIN-SUFFIX,twyxh.com
+DOMAIN-SUFFIX,zx.com
 # 沪ICP备18041304号-1
 DOMAIN-SUFFIX,tgpro.top
 DOMAIN-SUFFIX,tgprocs.net
-# 途游
-DOMAIN-SUFFIX,tuyoo.com
-# 完美世界
-DOMAIN-SUFFIX,wanmei.com
-DOMAIN-SUFFIX,wmsj.cn
 # Wine游戏助手 京ICP备18041936号
 DOMAIN-SUFFIX,winegame.net
 # 畅玩空间 冀ICP备20019223号
 DOMAIN-SUFFIX,wo1wan.com
 # 云蟾游戏 沪ICP备11009299号
 DOMAIN-SUFFIX,ycgame.com
+# 永劫无间
+DOMAIN-SUFFIX,yjwujian.cn
+# 燕云十六声
+DOMAIN-SUFFIX,yysls.cn

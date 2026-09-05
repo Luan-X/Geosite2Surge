@@ -1,4 +1,30 @@
+#include:activision-blizzard
+#include:activision
+# Use `geosite:activision-blizzard` if you want to match more domains
+DOMAIN-SUFFIX,activision.com
+DOMAIN-SUFFIX,callofduty.com
+DOMAIN-SUFFIX,callofdutyendowment.com
+DOMAIN-SUFFIX,callofdutyendowment.org
+DOMAIN-SUFFIX,callofdutyleague.com
+DOMAIN-SUFFIX,callofdutymobile.com
+DOMAIN-SUFFIX,crashbandicoot.com
+DOMAIN-SUFFIX,demonware.net
+DOMAIN-SUFFIX,highmoonstudios.com
+DOMAIN-SUFFIX,infinityward.com
+DOMAIN-SUFFIX,ravensoftware.com
+DOMAIN-SUFFIX,sekirothegame.com
+DOMAIN-SUFFIX,sierragames.com
+DOMAIN-SUFFIX,skylanders.com
+DOMAIN-SUFFIX,sledgehammergames.com
+DOMAIN-SUFFIX,solidstate.com
+DOMAIN-SUFFIX,spyrothedragon.com
+DOMAIN-SUFFIX,tonyhawk.com
+DOMAIN-SUFFIX,tonyhawkthegame.com
+DOMAIN-SUFFIX,treyarch.com
+DOMAIN-SUFFIX,worldseriesofwarzone.com
+#end include:activision
 #include:blizzard
+# Use `geosite:activision-blizzard` if you want to match more domains
 DOMAIN-SUFFIX,blizzard.com
 DOMAIN-SUFFIX,blizzardgearstore.com
 DOMAIN-SUFFIX,blz-contentstack.com
@@ -13,7 +39,9 @@ DOMAIN,bnetproduct-a.akamaihd.net
 DOMAIN,bnetshopus.akamaized.net
 
 # Diablo
+DOMAIN-SUFFIX,diablo.com
 DOMAIN-SUFFIX,diablo3.com
+DOMAIN-SUFFIX,diablo4.com
 DOMAIN-SUFFIX,diabloimmortal.com
 
 # Hearthstone
@@ -40,6 +68,16 @@ DOMAIN,blizzcon-a.akamaihd.net
 DOMAIN,blzmedia-a.akamaihd.net
 DOMAIN,blznav.akamaized.net
 #end include:blizzard
+
+# King
+DOMAIN-SUFFIX,candycrush.com
+DOMAIN-SUFFIX,king.com
+
+DOMAIN-SUFFIX,activisionblizzard.com
+DOMAIN-SUFFIX,activisionblizzardmedia.com
+DOMAIN-SUFFIX,benefitsforeveryworld.com
+DOMAIN-SUFFIX,europeanwarzoneseries.com
+#end include:activision-blizzard
 #include:bluearchive
 DOMAIN-SUFFIX,bluearchive.jp
 DOMAIN-SUFFIX,bluearchive.nexon.com
@@ -90,10 +128,8 @@ DOMAIN-SUFFIX,bejewled-stars.com
 DOMAIN-SUFFIX,bejeweledstars.com
 DOMAIN-SUFFIX,capitalgames.com
 DOMAIN-SUFFIX,chillingo.com
-DOMAIN-SUFFIX,commandandconquer.com
 DOMAIN-SUFFIX,conquerwithcharacter.com
 DOMAIN-SUFFIX,crysis.jp
-DOMAIN-SUFFIX,dawngate.com
 DOMAIN-SUFFIX,dawngatechronicles.com
 DOMAIN-SUFFIX,dicela.com
 DOMAIN-SUFFIX,dicela.net
@@ -133,15 +169,11 @@ DOMAIN-SUFFIX,playapex.com
 DOMAIN-SUFFIX,pogo.com
 DOMAIN-SUFFIX,pogobeta.com
 DOMAIN-SUFFIX,popcap.com
-DOMAIN-SUFFIX,projectapex.com
-DOMAIN-SUFFIX,pvzheroes.com
-DOMAIN-SUFFIX,spearhead.kr
 DOMAIN-SUFFIX,speedhunters.com
 DOMAIN-SUFFIX,spore.com
 DOMAIN-SUFFIX,ssx3.com
 DOMAIN-SUFFIX,starwarsbattlefront.com
 DOMAIN-SUFFIX,starwarsbattlefront2.com
-DOMAIN-SUFFIX,tiberiumalliances.com
 DOMAIN-SUFFIX,tiburon.com
 DOMAIN-SUFFIX,tnt-ea.com
 DOMAIN-SUFFIX,ultimaforever.com
@@ -306,13 +338,13 @@ DOMAIN-SUFFIX,embark-studios.com
 DOMAIN-SUFFIX,embark.games
 DOMAIN-SUFFIX,reachthefinals.com
 #end include:embark
-#include:eneba
-DOMAIN-SUFFIX,eneba.com
-DOMAIN-SUFFIX,eneba.games
-#end include:eneba
 #include:epicgames
-DOMAIN-SUFFIX,3lateral.com
+#include:artstation
 DOMAIN-SUFFIX,artstation.com
+DOMAIN-SUFFIX,artstationmedia.com
+#end include:artstation
+
+DOMAIN-SUFFIX,3lateral.com
 DOMAIN-SUFFIX,capturingreality.com
 DOMAIN-SUFFIX,cubicmotion.com
 DOMAIN-SUFFIX,battlebreakers.com
@@ -341,9 +373,9 @@ DOMAIN-SUFFIX,unrealtournament.com
 
 DOMAIN-SUFFIX,egdownload.fastly-edge.com
 DOMAIN-SUFFIX,fortnite-vod.akamaized.net
-DOMAIN-WILDCARD,cdn?-epicgames-*.file.myqcloud.com
-DOMAIN-WILDCARD,epicgames-download?.akamaized.net
-DOMAIN-WILDCARD,epicgames-download?-*.file.myqcloud.com
+DOMAIN-REGEX,^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+DOMAIN-REGEX,^epicgames-download\d\.akamaized\.net$
+DOMAIN-REGEX,^epicgames-download\d-\d+\.file\.myqcloud\.com$
 #end include:epicgames
 #include:escapefromtarkov
 DOMAIN-SUFFIX,tarkov.com
@@ -369,6 +401,12 @@ DOMAIN-SUFFIX,star-conflict.com
 DOMAIN-SUFFIX,warthunder.com
 DOMAIN-SUFFIX,wtmobile.com
 #end include:gaijin
+#include:gamesplanet
+# Gamesplanet/GameTap (Metaboli)
+DOMAIN-SUFFIX,gamesplanet.com
+DOMAIN-SUFFIX,gametap.com
+DOMAIN-SUFFIX,gpstatic.com
+#end include:gamesplanet
 #include:garena
 DOMAIN,avatargarenanow-a.akamaihd.net
 DOMAIN,cdngarenanow-a.akamaihd.net
@@ -389,21 +427,17 @@ DOMAIN-SUFFIX,seagroup.com
 #end include:garena
 #include:gog
 DOMAIN-SUFFIX,gog.com
+DOMAIN-SUFFIX,gog-services.com
 DOMAIN-SUFFIX,gog-statics.com
+DOMAIN-SUFFIX,gogalaxy.com
 
 DOMAIN,gog.qtlglb.com
-DOMAIN,gogalaxy.gog-statics.com
-DOMAIN,menu-static.gog-statics.com
-DOMAIN,productcard.gog-statics.com
-DOMAIN,static-login.gog-statics.com
-DOMAIN,www4-static.gog-statics.com
-DOMAIN-WILDCARD,cdn-akamai-*.gog-services.com
-DOMAIN-WILDCARD,gog-cdn-*.footprint.net
-DOMAIN-WILDCARD,images*.gog-statics.com
-
-# CDN available in China mainland
-DOMAIN,gog-cdn-fastly.gog.com
+DOMAIN,gog-cdn-lumen.secure2.footprint.net
 DOMAIN,gog-cdn.akamaized.net
+
+# Ads/tracking
+## https://www.gog.com/forum/general/telemetry_in_gog_galaxy_20/page1
+DOMAIN-SUFFIX,insights-collector.gog.com
 #end include:gog
 #include:hoyoverse
 # 原神
@@ -433,11 +467,37 @@ DOMAIN-SUFFIX,zenlesszonezero.com
 # ads/tracking
 DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
 #end include:hoyoverse
+#include:humblebundle
+DOMAIN-SUFFIX,humblebundle.com
+
+DOMAIN,hb.imgix.net
+#end include:humblebundle
 # Dead include:illusion
 #include:itchio
 DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,itch.zone
 #end include:itchio
+#include:konami
+DOMAIN-SUFFIX,573.jp
+DOMAIN-SUFFIX,kgisystems.com
+DOMAIN-SUFFIX,kiwi.jp
+DOMAIN-SUFFIX,konami-igaming.online
+DOMAIN-SUFFIX,konami.co.jp
+DOMAIN-SUFFIX,konami.com
+DOMAIN-SUFFIX,konami.net
+DOMAIN-SUFFIX,konami.org
+DOMAIN-SUFFIX,konamicrossmedia.com
+DOMAIN-SUFFIX,konamigaming.com
+DOMAIN-SUFFIX,konamigaming.net
+DOMAIN-SUFFIX,konamigaming.online
+DOMAIN-SUFFIX,konamionline.com
+DOMAIN-SUFFIX,konamiopen.jp
+DOMAIN-SUFFIX,konamisportsclub.jp
+DOMAIN-SUFFIX,konamistyle.jp
+DOMAIN-SUFFIX,resella.jp
+DOMAIN-SUFFIX,resellablue.com
+DOMAIN-SUFFIX,yugioh-card.com
+#end include:konami
 #include:lowiro
 DOMAIN-SUFFIX,lowiro.com
 #end include:lowiro
@@ -448,7 +508,9 @@ DOMAIN-SUFFIX,modrinth.com
 DOMAIN-SUFFIX,nexon.co.jp
 DOMAIN-SUFFIX,nexon.com
 DOMAIN-SUFFIX,nexon.io
+DOMAIN-SUFFIX,nexon.net
 DOMAIN-SUFFIX,nexoncdn.co.kr
+DOMAIN-SUFFIX,nexongames.co.kr
 #end include:nexon
 #include:nikke
 DOMAIN-SUFFIX,nikke-de.com
@@ -788,6 +850,7 @@ DOMAIN-SUFFIX,steam-api.com
 DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamconnecttest.com
 DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
@@ -795,7 +858,11 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valve.net
 DOMAIN-SUFFIX,valvesoftware.com
+
+# Dota 2
+DOMAIN-SUFFIX,dota2.com
 
 # edgecast
 DOMAIN-SUFFIX,edge.steam-dns.top.comcast.net
@@ -838,9 +905,12 @@ DOMAIN,steamvideo-a.akamaihd.net
 
 # Azure
 DOMAIN,steamcloudsweden.blob.core.windows.net
+DOMAIN,steamugcquincy.blob.core.windows.net
 
 # 完美
+DOMAIN-SUFFIX,csgo.com.cn
 DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dota2.com.cn
 DOMAIN-SUFFIX,dota2.wmsj.cn
 DOMAIN-SUFFIX,wmsjsteam.com
 
@@ -897,12 +967,15 @@ DOMAIN-SUFFIX,mo.co
 DOMAIN-SUFFIX,seeurlpcl.com
 DOMAIN-SUFFIX,squadbusters.com
 DOMAIN-SUFFIX,supercell.com
-DOMAIN-SUFFIX,supercell.helpshift.com
 DOMAIN-SUFFIX,supercell.net
 DOMAIN-SUFFIX,supercellcreators.com
 DOMAIN-SUFFIX,supercellgames.com
 DOMAIN-SUFFIX,supercellid.com
 DOMAIN-SUFFIX,supercellstore.com
+DOMAIN-SUFFIX,supr.cl
+
+DOMAIN,supercell.helpshift.com
+DOMAIN,supercell.zendesk.com
 #end include:supercell
 #include:take-two
 #include:2kgames
@@ -916,6 +989,7 @@ DOMAIN-SUFFIX,2kweb.online
 #include:rockstar
 DOMAIN-SUFFIX,rockstargames.com
 DOMAIN-SUFFIX,rockstarnorth.com
+DOMAIN-SUFFIX,rsg.ms
 DOMAIN-SUFFIX,rsg.sc
 
 DOMAIN,gamedownloads-rockstargames-com.akamaized.net
@@ -964,7 +1038,6 @@ DOMAIN,ubistatic22-a.akamaihd.net
 DOMAIN,ubistatic23-a.akamaihd.net
 DOMAIN,ubistatic24-a.akamaihd.net
 DOMAIN,ubisoft.siteintercept.qualtrics.com
-DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 #end include:ubisoft
 #include:vrchat
 DOMAIN-SUFFIX,vrchat.cloud
@@ -993,6 +1066,7 @@ DOMAIN-SUFFIX,wbgames.com
 DOMAIN-SUFFIX,wbinsights.com
 #end include:wbgames
 #include:xbox
+#include:activision-blizzard
 #include:asobo
 DOMAIN-SUFFIX,asobostudio.com
 DOMAIN-SUFFIX,flightsimulator.com
@@ -1080,9 +1154,9 @@ DOMAIN-SUFFIX,dodi-repacks.download
 DOMAIN-SUFFIX,dodi-repacks.site
 DOMAIN-SUFFIX,fabricmc.net
 DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,ficgs.com
 DOMAIN-SUFFIX,fitgirl-repacks.site
 DOMAIN-SUFFIX,game-repack.site
-DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,joinsquad.com
 DOMAIN-SUFFIX,loverslab.com
 DOMAIN-SUFFIX,minecraft.wiki

@@ -52,9 +52,19 @@ DOMAIN-SUFFIX,baydn.com
 DOMAIN-SUFFIX,shanbay.com
 #end include:shanbay
 #include:xueersi
+# 学而思
+DOMAIN-SUFFIX,100tal.com
+DOMAIN-SUFFIX,aoshu.com
+DOMAIN-SUFFIX,eduu.com
+DOMAIN-SUFFIX,eduuu.com
+DOMAIN-SUFFIX,gaokao.com
 DOMAIN-SUFFIX,speiyou.com
+DOMAIN-SUFFIX,tal.com
 DOMAIN-SUFFIX,xesimg.com
 DOMAIN-SUFFIX,xueersi.com
+DOMAIN-SUFFIX,youjiao.com
+DOMAIN-SUFFIX,zhongkao.com
+DOMAIN-SUFFIX,zuowen.com
 #end include:xueersi
 #include:yuanfudao
 DOMAIN-SUFFIX,banmaaike.com
@@ -90,6 +100,10 @@ DOMAIN-SUFFIX,xuetangx.com
 # 国家智慧教育公共服务平台
 DOMAIN-SUFFIX,cbern.com.cn
 DOMAIN-SUFFIX,smartedu.cn
+# 国家教育资源公共服务平台
+DOMAIN-SUFFIX,eduyun.cn
+# 教育部中国大学生在线
+DOMAIN-SUFFIX,univs.cn
 
 # 教育部学生服务与素质发展中心
 # 京ICP备19004913号
@@ -125,6 +139,15 @@ DOMAIN-SUFFIX,zbbm.net
 DOMAIN-SUFFIX,neea.cn
 # neea.edu.cn
 
+# 高等教育出版社
+DOMAIN-SUFFIX,hep.com.cn
+# 人民教育出版社
+DOMAIN-SUFFIX,mypep.cn
+DOMAIN-SUFFIX,peeavp.com.cn
+DOMAIN-SUFFIX,pep.com.cn
+
+# 二一教育
+DOMAIN-SUFFIX,21cnjy.com
 # 云校
 DOMAIN-SUFFIX,91yunxiao.com
 # 爱云校/好分数
@@ -137,6 +160,11 @@ DOMAIN-SUFFIX,baicizhan.com
 DOMAIN-SUFFIX,baicizhan.org
 DOMAIN-SUFFIX,bczcdn.com
 DOMAIN-SUFFIX,bczeducation.cn
+# 班小二
+DOMAIN-SUFFIX,banxiaoer.com
+DOMAIN-SUFFIX,banxiaoer.net
+# 爱思博特国际教育
+DOMAIN-SUFFIX,beie.org
 # 毕业之家科研服务平台
 DOMAIN-SUFFIX,biyehome.net
 # Burning Vocabulary
@@ -144,12 +172,21 @@ DOMAIN-SUFFIX,burningvocabulary.cn
 DOMAIN-SUFFIX,burningvocabulary.com
 # 世纪外语网
 DOMAIN-SUFFIX,centuryenglish.com
+# 中教双元/教育在线
+DOMAIN-SUFFIX,cepsp.cn
+DOMAIN-SUFFIX,eol.cn
 # 中国地质大学 继续教育学院
 DOMAIN-SUFFIX,cugbonline.cn
+# 大连财经学院 大财校园
+DOMAIN-SUFFIX,dcshfu.com
 # 第二教育网
 DOMAIN-SUFFIX,dearedu.com
 # 莞教通
 DOMAIN-SUFFIX,dgjy.net
+# 海词词典
+DOMAIN-SUFFIX,dict.cn
+# 对分易
+DOMAIN-SUFFIX,duifene.com
 # 在职研究生教育信息网
 DOMAIN-SUFFIX,eduei.com
 # 中公
@@ -159,8 +196,14 @@ DOMAIN-SUFFIX,offcn.com
 DOMAIN-SUFFIX,zggqzp.com
 DOMAIN-SUFFIX,zgjsks.com
 DOMAIN-SUFFIX,zgsydw.com
+# 高绩网
+DOMAIN-SUFFIX,gaojidata.com
 # 高考100
 DOMAIN-SUFFIX,gk100.com
+# 智德通达
+DOMAIN-SUFFIX,guojibk.com
+# 广州应用科技学院
+DOMAIN-SUFFIX,gzasc.com
 # 华图
 DOMAIN-SUFFIX,huatu.com
 DOMAIN-SUFFIX,sydw8.com
@@ -202,16 +245,32 @@ DOMAIN-SUFFIX,neoschool.com
 DOMAIN-SUFFIX,oldboyedu.com
 # 批改网
 DOMAIN-SUFFIX,pigai.org
+# 蜻蜓志愿
+DOMAIN-SUFFIX,qingtingai.net
+# 曲一线教育
+DOMAIN-SUFFIX,quyixian.com
+# 荣德基教育
+DOMAIN-SUFFIX,rongdeji.cn
+DOMAIN-SUFFIX,rudder.com.cn
 # 公考知识库
 DOMAIN-SUFFIX,saduck.top
+# 天星教育
+DOMAIN-SUFFIX,tesoon.com
 # 外研在线
 DOMAIN-SUFFIX,unipus.cn
 # 未来云校
 DOMAIN-SUFFIX,weilaiyunxiao.com
 # 北京嘉瑞新创教育咨询有限公司
 DOMAIN-SUFFIX,winyoungreading.com
+# 博茂择优
+DOMAIN-SUFFIX,wjwai.com
+DOMAIN-SUFFIX,zysn.net
 # 时代行云
 DOMAIN-SUFFIX,x-cloud.cc
+# 西瓜创客
+DOMAIN-SUFFIX,xiguacity.cn
+# 西柚英语
+DOMAIN-SUFFIX,xiyouyingyu.com
 # 学科网
 DOMAIN-SUFFIX,xkw.com
 DOMAIN-SUFFIX,zxxk.com
@@ -219,12 +278,22 @@ DOMAIN-SUFFIX,zxxk.com
 DOMAIN-SUFFIX,yunzhuxue.com
 # “叶圣陶杯”全国中学生新作文大赛
 DOMAIN-SUFFIX,ystbds.com
+# 易班优课
+DOMAIN-SUFFIX,yooc.me
+# 中国高校在线
+DOMAIN-SUFFIX,zggx100.com
 # 小站教育
 DOMAIN-SUFFIX,zhan.com
 # 智慧树
 DOMAIN-SUFFIX,zhihuishu.com
 # 浙江省教育考试院
 DOMAIN-SUFFIX,zjzs.net
-# 班小二
-DOMAIN-SUFFIX,banxiaoer.com
-DOMAIN-SUFFIX,banxiaoer.net
+# 作文素材类
+DOMAIN-SUFFIX,zuowen8.com
+DOMAIN-SUFFIX,zuowenjun.com
+DOMAIN-SUFFIX,zuowenku.net
+DOMAIN-SUFFIX,zuowenwang.net
+# 千学教育 # 京ICP备2021026895号-5
+DOMAIN-SUFFIX,qianxuecloud.com
+DOMAIN-SUFFIX,qianxueyunke.com
+DOMAIN-SUFFIX,zhixingyunke.com

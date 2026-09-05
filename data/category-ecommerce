@@ -1,8 +1,35 @@
 #include:category-ecommerce-ru
+#include:autoru
+DOMAIN-SUFFIX,apiauto.ru
+DOMAIN-SUFFIX,auto.ru
+DOMAIN-SUFFIX,autoru.me
+DOMAIN-SUFFIX,avto.ru
+DOMAIN-SUFFIX,cm.expert
+#end include:autoru
 #include:avito
 DOMAIN-SUFFIX,avito.ru
 DOMAIN-SUFFIX,avito.st
+
+DOMAIN,stats.avito.ru
 #end include:avito
+#include:cian
+DOMAIN-SUFFIX,cian.ru
+DOMAIN-SUFFIX,cian.site
+DOMAIN-SUFFIX,ciangroup.ru
+DOMAIN-SUFFIX,dmir.ru
+DOMAIN-SUFFIX,poudobnee.com
+DOMAIN-SUFFIX,xn--80aaafbpzn5blfby1p.xn--p1ai
+DOMAIN-SUFFIX,xn--80aaeib8abrryx4k.xn--p1ai
+#end include:cian
+#include:flowwow
+DOMAIN-SUFFIX,flowwow-images.com
+DOMAIN-SUFFIX,flowwow.com
+#end include:flowwow
+#include:funpay
+DOMAIN-SUFFIX,funpay.com
+DOMAIN-SUFFIX,funpay.ru
+DOMAIN-SUFFIX,sfunpay.com
+#end include:funpay
 #include:ozon
 DOMAIN-SUFFIX,ewisdom.us.kg
 DOMAIN-SUFFIX,o3.ru
@@ -13,14 +40,17 @@ DOMAIN-SUFFIX,ocourier.ru
 DOMAIN-SUFFIX,ozon-dostavka.ru
 DOMAIN-SUFFIX,ozon-credit.ru
 DOMAIN-SUFFIX,ozon-tech.ru
+DOMAIN-SUFFIX,ozon.app
 DOMAIN-SUFFIX,ozon.by
 DOMAIN-SUFFIX,ozon.com
 DOMAIN-SUFFIX,ozon.com.by
 DOMAIN-SUFFIX,ozon.com.kz
 DOMAIN-SUFFIX,ozon.dev
 DOMAIN-SUFFIX,ozon.express
+DOMAIN-SUFFIX,ozon.global
 DOMAIN-SUFFIX,ozon.kz
 DOMAIN-SUFFIX,ozon.li
+DOMAIN-SUFFIX,ozon.market
 DOMAIN-SUFFIX,ozon.ru
 DOMAIN-SUFFIX,ozon.tech
 DOMAIN-SUFFIX,ozon.tm
@@ -78,11 +108,11 @@ DOMAIN-SUFFIX,mp.world
 DOMAIN-SUFFIX,onlyjobs.ru
 DOMAIN-SUFFIX,paywb.com
 DOMAIN-SUFFIX,paywb.ru
+DOMAIN-SUFFIX,russoutdoor.ru
 DOMAIN-SUFFIX,rwb.ru
 DOMAIN-SUFFIX,rwbautomation.ru
 DOMAIN-SUFFIX,rwbautomation.tech
 DOMAIN-SUFFIX,rwbgeo.ru
-DOMAIN-SUFFIX,russoutdoor.ru
 DOMAIN-SUFFIX,vamzakaz.ru
 DOMAIN-SUFFIX,vsemrabota.ru
 DOMAIN-SUFFIX,warehouse.domains
@@ -97,6 +127,7 @@ DOMAIN-SUFFIX,wb.ru
 DOMAIN-SUFFIX,wbautomation.ru
 DOMAIN-SUFFIX,wbautomation.tech
 DOMAIN-SUFFIX,wbbasket.ru
+DOMAIN-SUFFIX,wbcontent.net
 DOMAIN-SUFFIX,wbdubna.ru
 DOMAIN-SUFFIX,wbkids.ru
 DOMAIN-SUFFIX,wbmail.ru
@@ -139,8 +170,8 @@ DOMAIN-SUFFIX,welberris.ru
 DOMAIN-SUFFIX,weldberies.ru
 DOMAIN-SUFFIX,weldberres.ru
 DOMAIN-SUFFIX,weldberric.ru
-DOMAIN-SUFFIX,wellberies.ru
 DOMAIN-SUFFIX,wellberes.ru
+DOMAIN-SUFFIX,wellberies.ru
 DOMAIN-SUFFIX,widberri.ru
 DOMAIN-SUFFIX,widberris.ru
 DOMAIN-SUFFIX,wieldberris.ru
@@ -151,13 +182,13 @@ DOMAIN-SUFFIX,wilberry.ru
 DOMAIN-SUFFIX,wildbaries.ru
 DOMAIN-SUFFIX,wildbarries.ru
 DOMAIN-SUFFIX,wildbeeries.ru
+DOMAIN-SUFFIX,wildberdes.ru
 DOMAIN-SUFFIX,wildberiss.ru
 DOMAIN-SUFFIX,wildberr.ru
-DOMAIN-SUFFIX,wildbiries.ru
-DOMAIN-SUFFIX,wildbirris.ru
-DOMAIN-SUFFIX,wildberdes.ru
 DOMAIN-SUFFIX,wildberriess.ru
 DOMAIN-SUFFIX,wildberrise.ru
+DOMAIN-SUFFIX,wildbiries.ru
+DOMAIN-SUFFIX,wildbirris.ru
 DOMAIN-SUFFIX,wildbress.ru
 DOMAIN-SUFFIX,wildbries.ru
 DOMAIN-SUFFIX,wildbrris.ru
@@ -190,6 +221,10 @@ DOMAIN,marketplace-sentry.wb.ru
 DOMAIN,sentry.wb.ru
 DOMAIN,web-analytics.wildberries.ru
 #end include:wildberries
+
+# drom
+DOMAIN-SUFFIX,drom.ru
+DOMAIN-SUFFIX,rdrom.ru
 #end include:category-ecommerce-ru
 
 #include:adidas
@@ -645,7 +680,6 @@ DOMAIN-SUFFIX,ebaycareers.com
 DOMAIN-SUFFIX,ebaycbt.co.kr
 DOMAIN-SUFFIX,ebaycdn.net
 DOMAIN-SUFFIX,ebaychina.net
-DOMAIN-SUFFIX,ebayclassifiedsgroup.com
 DOMAIN-SUFFIX,ebayclassifieds.cn
 DOMAIN-SUFFIX,ebayclassifieds.com
 DOMAIN-SUFFIX,ebayclassifieds.com.cn
@@ -808,8 +842,8 @@ DOMAIN-SUFFIX,theebayshop.com
 DOMAIN-SUFFIX,theopportunityproject.org
 DOMAIN-SUFFIX,towerauction.com
 DOMAIN-SUFFIX,vendu.com
-DOMAIN-SUFFIX,weareebay.com
 DOMAIN-SUFFIX,watch-ebay.org
+DOMAIN-SUFFIX,weareebay.com
 DOMAIN-SUFFIX,wwwdecide.com
 DOMAIN-SUFFIX,wwwebay.com
 DOMAIN-SUFFIX,wwwebay.net
@@ -894,6 +928,10 @@ DOMAIN,ebay-25-assets.s3-us-west-1.amazonaws.com
 DOMAIN-SUFFIX,ebuyer.com
 #ebyrcdn.net
 #end include:ebuyer
+#include:eneba
+DOMAIN-SUFFIX,eneba.com
+DOMAIN-SUFFIX,eneba.games
+#end include:eneba
 #include:farfetch
 DOMAIN-SUFFIX,farfetch-apps.com
 DOMAIN-SUFFIX,farfetch-contents.com
@@ -1301,6 +1339,8 @@ DOMAIN,ecapi-pchome.cdn.hinet.net
 DOMAIN,pchomeonline.com.tw
 #end include:pchome
 #include:rakuten
+# https://global.rakuten.com/corp/about/
+DOMAIN-SUFFIX,buyservices.com
 DOMAIN-SUFFIX,r10s.com
 DOMAIN-SUFFIX,r10s.jp
 DOMAIN-SUFFIX,rakuten-static.com
@@ -1309,9 +1349,39 @@ DOMAIN-SUFFIX,rakuten.co.jp
 DOMAIN-SUFFIX,rakuten.com
 DOMAIN-SUFFIX,rakuten.com.tw
 DOMAIN-SUFFIX,rakuten.ne.jp
+DOMAIN-SUFFIX,rakuten.tv
 DOMAIN-SUFFIX,rakuten.tw
+DOMAIN-SUFFIX,rakutenadvertising.com
+DOMAIN-SUFFIX,rakutengiftcards.ca
+
+# Ebates/Rakuten Rewards
+DOMAIN-SUFFIX,bfads.net
+DOMAIN-SUFFIX,ebates.ca
+DOMAIN-SUFFIX,ebates.kr
+DOMAIN-SUFFIX,ebates.sg
+DOMAIN-SUFFIX,ebatescanada.com
+DOMAIN-SUFFIX,ecbsn.com
+DOMAIN-SUFFIX,fatwallet.com
 DOMAIN-SUFFIX,rclon.com
 DOMAIN-SUFFIX,rebates.jp
+DOMAIN-SUFFIX,rrcbsn.com
+
+# https://en.wikipedia.org/wiki/Kobo_Inc.
+DOMAIN-SUFFIX,kobo.com
+
+# Rakuten Viber
+#include:viber
+DOMAIN-SUFFIX,viber.com
+DOMAIN-SUFFIX,viber.co
+DOMAIN-SUFFIX,viber.me
+
+DOMAIN-SUFFIX,s-bid.rmp.rakuten.com
+DOMAIN-SUFFIX,vbcdn.com
+DOMAIN-SUFFIX,vbcdn.net
+#end include:viber
+
+# Rakuten Viki
+DOMAIN-SUFFIX,viki.com
 #end include:rakuten
 #include:ruten
 DOMAIN-SUFFIX,rimg.com.tw
@@ -1390,8 +1460,13 @@ DOMAIN-SUFFIX,wmt.co
 DOMAIN-SUFFIX,wish.com
 #end include:wish
 
+DOMAIN-SUFFIX,allkeyshop.com
 DOMAIN-SUFFIX,axbdoll.com.tw
+DOMAIN-SUFFIX,gamewtb.com
+DOMAIN-SUFFIX,gg.deals
 DOMAIN-SUFFIX,i69.com.tw
+DOMAIN-SUFFIX,kinguin.net
 DOMAIN-SUFFIX,pornhubapparel.com
 DOMAIN-SUFFIX,readmoo.com
 DOMAIN-SUFFIX,redino.tw
+DOMAIN-SUFFIX,templatemonster.com

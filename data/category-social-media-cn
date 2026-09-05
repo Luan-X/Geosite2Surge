@@ -35,7 +35,11 @@ DOMAIN-SUFFIX,okjk.co
 DOMAIN-SUFFIX,ruguoapp.com
 #end include:okjike
 #include:sina @-!cn
+DOMAIN-SUFFIX,sina
+DOMAIN-SUFFIX,weibo
+DOMAIN-SUFFIX,xn--9krt00a    #微博
 DOMAIN-SUFFIX,97973.com
+DOMAIN-SUFFIX,krcom.cn
 DOMAIN-SUFFIX,picself.cn
 DOMAIN-SUFFIX,sina.cn
 DOMAIN-SUFFIX,sina.com
@@ -95,19 +99,15 @@ DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xhsrcdn.com
 DOMAIN-SUFFIX,xiaohongshu.com
 #end include:xiaohongshu
-#include:yy
-#include:duowan
-DOMAIN-SUFFIX,duowan.com
-DOMAIN-SUFFIX,dwstatic.com
-#end include:duowan
-
-DOMAIN-SUFFIX,yy.com
-DOMAIN-SUFFIX,yystatic.com
-#end include:yy
 #include:zhihu
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 
+# 北京雷盟盛通文化发展有限公司
+DOMAIN-SUFFIX,laiyagushi.com
+DOMAIN-SUFFIX,vzuu.com
+
+# Ads/tracking
 DOMAIN-SUFFIX,crash2.zhihu.com
 DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 #end include:zhihu
@@ -122,9 +122,18 @@ DOMAIN-SUFFIX,dandanvoice.com
 # 饭否
 DOMAIN-SUFFIX,fanfou.com
 
+# 最右
+DOMAIN-SUFFIX,izuiyou.com
+DOMAIN-SUFFIX,ixiaochuan.cn
+DOMAIN-SUFFIX,xiaochuankeji.cn
+
 # 脉脉
 DOMAIN-SUFFIX,maimai.cn
 DOMAIN-SUFFIX,taou.com
+
+# 与你
+DOMAIN-SUFFIX,uneed.com
+DOMAIN-SUFFIX,uneedx.com
 
 # 知识星球
 DOMAIN-SUFFIX,zsxq.com

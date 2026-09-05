@@ -12,4 +12,4 @@ DOMAIN,hs.wosms.cn
 DOMAIN,enrichgw.10010.com
 DOMAIN,hap.10010.com
 
-DOMAIN-WILDCARD,nis*.10010.com
+DOMAIN-REGEX,^nis.+\.10010\.com$

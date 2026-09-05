@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,321fenx.com
 DOMAIN-SUFFIX,easebar.com
 DOMAIN-SUFFIX,haowu.link
 DOMAIN-SUFFIX,icourse163.org
+DOMAIN-SUFFIX,kada.com
 DOMAIN-SUFFIX,lf126.net
 DOMAIN-SUFFIX,lf127.net
 DOMAIN-SUFFIX,lofter.com
@@ -29,12 +30,19 @@ DOMAIN-SUFFIX,qiyukf.com
 DOMAIN-SUFFIX,qiyukf.net
 DOMAIN-SUFFIX,qiyukf.net.cn
 DOMAIN-SUFFIX,static163.net
+DOMAIN-SUFFIX,weiyang.cn
 DOMAIN-SUFFIX,ydstatic.com
 DOMAIN-SUFFIX,yeah.net
 DOMAIN-SUFFIX,youdao.com
+DOMAIN-SUFFIX,youdaoads.com
 DOMAIN-SUFFIX,yunxindns.com
 DOMAIN-SUFFIX,yunxinfw.com
 DOMAIN-SUFFIX,zhuanzfx.com
+
+# 永劫无间
+DOMAIN-SUFFIX,yjwujian.cn
+# 燕云十六声
+DOMAIN-SUFFIX,yysls.cn
 
 # Ads/tracking
 DOMAIN-SUFFIX,a.youdao.com

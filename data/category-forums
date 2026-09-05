@@ -1,4 +1,10 @@
 # Forums & Social network
+#include:2ch
+DOMAIN-SUFFIX,2ch.hk
+DOMAIN-SUFFIX,2ch.life
+DOMAIN-SUFFIX,2ch.org
+DOMAIN-SUFFIX,2ch.su
+#end include:2ch
 #include:4chan
 DOMAIN-SUFFIX,4cdn.org
 DOMAIN-SUFFIX,4chan.org
@@ -6,6 +12,7 @@ DOMAIN-SUFFIX,4channel.org
 #end include:4chan
 #include:5ch
 DOMAIN-SUFFIX,2ch.net
+DOMAIN-SUFFIX,5ch.io
 DOMAIN-SUFFIX,5ch.net
 #end include:5ch
 #include:6park
@@ -59,6 +66,10 @@ DOMAIN-SUFFIX,lihkg.com
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,ldstatic.com
 #end include:linuxdo
+#include:livejournal
+DOMAIN-SUFFIX,livejournal.com
+DOMAIN-SUFFIX,livejournal.net
+#end include:livejournal
 #include:mobile01
 DOMAIN-SUFFIX,5i01.com
 DOMAIN-SUFFIX,mobile01.com
@@ -96,6 +107,8 @@ DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,qr.ae
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,quoracdn.net
+
+DOMAIN,www.quora.com.cdn.cloudflare.net
 #end include:quora
 #include:reddit
 DOMAIN-SUFFIX,redd.it
@@ -119,6 +132,7 @@ DOMAIN-SUFFIX,rutracker.me
 DOMAIN-SUFFIX,rutracker.net
 DOMAIN-SUFFIX,rutracker.nl
 DOMAIN-SUFFIX,rutracker.org
+DOMAIN-SUFFIX,rutracker.wiki
 DOMAIN-SUFFIX,rutrk.org
 #end include:rutracker
 #include:soyjakparty

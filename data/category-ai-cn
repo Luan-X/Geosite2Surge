@@ -4,8 +4,8 @@ DOMAIN-SUFFIX,askdiandian.com
 DOMAIN-SUFFIX,diandianlife.top
 #end include:askdiandian
 #include:deepseek
-# Main domain
 DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseeksvc.com
 #end include:deepseek
 #include:doubao
 # 北京春田知韵科技有限公司 京ICP备2023020373号
@@ -81,13 +81,33 @@ DOMAIN-SUFFIX,tapnow.top
 # 通义千问
 DOMAIN-SUFFIX,qianwen.aliyun.com
 DOMAIN-SUFFIX,qianwen.com
+DOMAIN-SUFFIX,qianwenai.com
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,qwenlm.ai
 DOMAIN-SUFFIX,tongyi.aliyun.com
 DOMAIN-SUFFIX,tongyi.com
 
+# 蚂蚁阿福
+DOMAIN-SUFFIX,antafu.com
+DOMAIN-SUFFIX,antaq.com
+
+# Happy Horse
+DOMAIN-SUFFIX,aorizon.cn
+DOMAIN-SUFFIX,happyhorse.cn
+DOMAIN-SUFFIX,happyshrimp.cn
+DOMAIN-SUFFIX,sleeplesshorizon.cn
+
 # 文心一言
 DOMAIN-SUFFIX,yiyan.baidu.com
+
+# DuMate
+DOMAIN-SUFFIX,dumate.cn
+
+# 秒哒
+DOMAIN-SUFFIX,miaoda.cn
+
+# MCP World
+DOMAIN-SUFFIX,mcpworld.com
 
 # 天工AI
 DOMAIN-SUFFIX,tiangong.cn
@@ -101,7 +121,6 @@ DOMAIN-SUFFIX,zhipucn.com
 
 # 月之暗面
 DOMAIN-SUFFIX,kimi.com
-DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,moonshot.cn
 
 # 讯飞星火
@@ -112,10 +131,13 @@ DOMAIN-SUFFIX,hailuoai.com
 DOMAIN-SUFFIX,minimaxi.com
 DOMAIN-SUFFIX,xingyeai.com
 
-# WorkBuddy 腾讯云代码助手
+# WorkBuddy
 DOMAIN-SUFFIX,codebuddy.cn
+DOMAIN-SUFFIX,workbuddy.cn
 # 腾讯混元
 DOMAIN-SUFFIX,hunyuan.tencent.com
+# 元宝
+DOMAIN-SUFFIX,yuanbao.tencent.com
 # 腾讯元器
 DOMAIN-SUFFIX,yuanqi.tencent.com
 
@@ -136,6 +158,11 @@ DOMAIN-SUFFIX,miaoyanai.com
 
 # 法行宝 (百度)
 DOMAIN-SUFFIX,faxingbao.com
+
+# 可灵AI（快手）
+DOMAIN-SUFFIX,kechuangai.com
+DOMAIN-SUFFIX,kling-ai.com
+DOMAIN-SUFFIX,klingai.com
 
 # 上海秘塔网络科技
 DOMAIN-SUFFIX,meta.law
@@ -158,3 +185,12 @@ DOMAIN-SUFFIX,safeskill.cn
 
 # 智合 AI 沪ICP备2024060320号-4
 DOMAIN-SUFFIX,zhiexa.com
+
+# LinkNet 沪ICP备2025147287号-4
+DOMAIN-SUFFIX,linka2a.net
+
+# 鸭嘴兽AI (跨境电商 AI 助手) 粤ICP备2026075154号-1
+DOMAIN-SUFFIX,yzsgo.com
+
+# 瞬境AI
+DOMAIN-SUFFIX,shunjing.xin

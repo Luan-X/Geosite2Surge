@@ -1,5 +1,9 @@
-DOMAIN-SUFFIX,3lateral.com
+#include:artstation
 DOMAIN-SUFFIX,artstation.com
+DOMAIN-SUFFIX,artstationmedia.com
+#end include:artstation
+
+DOMAIN-SUFFIX,3lateral.com
 DOMAIN-SUFFIX,capturingreality.com
 DOMAIN-SUFFIX,cubicmotion.com
 DOMAIN-SUFFIX,battlebreakers.com
@@ -28,6 +32,6 @@ DOMAIN-SUFFIX,unrealtournament.com
 
 DOMAIN-SUFFIX,egdownload.fastly-edge.com
 DOMAIN-SUFFIX,fortnite-vod.akamaized.net
-DOMAIN-WILDCARD,cdn?-epicgames-*.file.myqcloud.com
-DOMAIN-WILDCARD,epicgames-download?.akamaized.net
-DOMAIN-WILDCARD,epicgames-download?-*.file.myqcloud.com
+DOMAIN-REGEX,^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+DOMAIN-REGEX,^epicgames-download\d\.akamaized\.net$
+DOMAIN-REGEX,^epicgames-download\d-\d+\.file\.myqcloud\.com$

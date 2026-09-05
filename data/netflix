@@ -25,10 +25,10 @@ DOMAIN-SUFFIX,netflixdnstest9.com
 DOMAIN-SUFFIX,netflixdnstest10.com
 
 # regular expression
-DOMAIN-WILDCARD,*apiproxy-device-prod-nlb-*.amazonaws.com
-DOMAIN-WILDCARD,*apiproxy-website-nlb-prod-*.amazonaws.com
-DOMAIN-WILDCARD,*dualstack.apiproxy-*.amazonaws.com
-DOMAIN-WILDCARD,*dualstack.ichnaea-web-*.amazonaws.com
+DOMAIN-REGEX,(^|\.)apiproxy-device-prod-nlb-.+\.amazonaws\.com$
+DOMAIN-REGEX,(^|\.)apiproxy-website-nlb-prod-.+\.amazonaws\.com$
+DOMAIN-REGEX,(^|\.)dualstack\.apiproxy-.+\.amazonaws\.com$
+DOMAIN-REGEX,(^|\.)dualstack\.ichnaea-web-.+\.amazonaws\.com$
 
 # Full
 DOMAIN,netflix.com.edgesuite.net

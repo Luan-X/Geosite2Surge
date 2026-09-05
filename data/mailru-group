@@ -13,7 +13,15 @@ DOMAIN-SUFFIX,dzeninfra.ru
 DOMAIN-SUFFIX,apiok.ru
 DOMAIN-SUFFIX,insideok.ru
 DOMAIN-SUFFIX,odkl.ru
+DOMAIN-SUFFIX,odnoklasniki.by
+DOMAIN-SUFFIX,odnoklasniki.ua
+DOMAIN-SUFFIX,odnoklassniki.am
+DOMAIN-SUFFIX,odnoklassniki.by
+DOMAIN-SUFFIX,odnoklassniki.co.ee
+DOMAIN-SUFFIX,odnoklassniki.eu
+DOMAIN-SUFFIX,odnoklassniki.lv
 DOMAIN-SUFFIX,odnoklassniki.ru
+DOMAIN-SUFFIX,odnoklassniki.tj
 DOMAIN-SUFFIX,ok.me
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,okl.lt
@@ -97,6 +105,7 @@ DOMAIN-SUFFIX,hrtek.ru
 DOMAIN-SUFFIX,koddobra.ru
 DOMAIN-SUFFIX,lovina.app
 DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,mcs.st
 DOMAIN-SUFFIX,mediumquality.ru
 DOMAIN-SUFFIX,memealerts.com
 DOMAIN-SUFFIX,movika.com
@@ -109,6 +118,7 @@ DOMAIN-SUFFIX,vk-apps.ru
 DOMAIN-SUFFIX,vk-records.ru
 DOMAIN-SUFFIX,vk-stadium.ru
 DOMAIN-SUFFIX,vk.company
+DOMAIN-SUFFIX,vk.kz
 DOMAIN-SUFFIX,vk.team
 DOMAIN-SUFFIX,vkclips.app
 DOMAIN-SUFFIX,vkcs.cloud
@@ -116,11 +126,18 @@ DOMAIN-SUFFIX,vkfest.ru
 DOMAIN-SUFFIX,vkgo.app
 DOMAIN-SUFFIX,vklive.app
 DOMAIN-SUFFIX,vkvideo.ru
+DOMAIN-SUFFIX,vkworkspace.kz
 DOMAIN-SUFFIX,yclients.com
 
 # IDN ccTLD
 DOMAIN-SUFFIX,xn--80asgb.xn--p1ai    #майл.рф
 DOMAIN-SUFFIX,xn--e1aigb.xn--p1ai    #мейл.рф
+
+# Unknown-purpose domains with DGA subdomains
+DOMAIN-SUFFIX,justveryok.com
+DOMAIN-SUFFIX,keyboardmen.com
+DOMAIN-SUFFIX,rabbitcounter.com
+DOMAIN-SUFFIX,sayeasy.eu
 
 # Ads and tracking
 DOMAIN-SUFFIX,ad.mail.ru
@@ -137,6 +154,7 @@ DOMAIN-SUFFIX,radar.imgsmail.ru
 DOMAIN-SUFFIX,relap.mail.ru
 DOMAIN-SUFFIX,target.my.com
 DOMAIN-SUFFIX,top-fwz1.mail.ru
+DOMAIN-SUFFIX,trace-flow.ru
 DOMAIN-SUFFIX,tracker-api.my.com
 DOMAIN-SUFFIX,tracker.my.com
 DOMAIN,1l-hit.mail.ru
@@ -214,13 +232,16 @@ DOMAIN-SUFFIX,algoritmika.org
 DOMAIN-SUFFIX,code-class.ru
 DOMAIN-SUFFIX,gb.ru
 DOMAIN-SUFFIX,lerna.ru
+DOMAIN-SUFFIX,o-uchi.ru
 DOMAIN-SUFFIX,skbx.pro    #Probably a CDN
 DOMAIN-SUFFIX,skillbox.pro
 DOMAIN-SUFFIX,skillbox.ru
 DOMAIN-SUFFIX,skillfactory.ru
 DOMAIN-SUFFIX,tetrika-school.ru
 DOMAIN-SUFFIX,uchi.ru
+DOMAIN-SUFFIX,uchilk.ru
 DOMAIN-SUFFIX,umschool.net
+DOMAIN-SUFFIX,xn----otbzjdu.xn--p1ai
 DOMAIN-SUFFIX,yaklass.ru
 
 ## ESforce
@@ -243,8 +264,8 @@ DOMAIN-SUFFIX,icq.at
 DOMAIN-SUFFIX,icq.biz
 DOMAIN-SUFFIX,icq.com
 DOMAIN-SUFFIX,icq.de
-DOMAIN-SUFFIX,icq.fr
 DOMAIN-SUFFIX,icq.eu
+DOMAIN-SUFFIX,icq.fr
 DOMAIN-SUFFIX,icq.im
 DOMAIN-SUFFIX,icq.lt
 DOMAIN-SUFFIX,icq.mobi
@@ -331,6 +352,10 @@ DOMAIN-SUFFIX,uma.media
 ## Viqeo
 DOMAIN-SUFFIX,viqeo.tv
 DOMAIN-SUFFIX,viqeotv.com
+
+## VK Cloud KZ (joint venture with QazCloud)
+DOMAIN-SUFFIX,vkcloud-static.kz
+DOMAIN-SUFFIX,vkcloud.kz
 
 ## VK Play
 DOMAIN-SUFFIX,vkplay-arena.ru

@@ -98,6 +98,12 @@ DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,nbabot.net
 #end include:messenger
+#include:nicegram
+DOMAIN-SUFFIX,nicegram.app
+DOMAIN-SUFFIX,nicegram.cloud
+# Ads
+DOMAIN-SUFFIX,adsgram.ai
+#end include:nicegram
 #include:protonmail
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,proton.me
@@ -132,6 +138,11 @@ DOMAIN-SUFFIX,slackcertified.com
 DOMAIN-SUFFIX,slackdemo.com
 DOMAIN-SUFFIX,slackhq.com
 #end include:slack
+#include:teamspeak
+DOMAIN-SUFFIX,myteamspeak.com
+DOMAIN-SUFFIX,teamspeak.com
+DOMAIN-SUFFIX,teamspeak-services.com
+#end include:teamspeak
 #include:telegram
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
@@ -151,6 +162,7 @@ DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,toncenter.com
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
 #end include:telegram
@@ -183,3 +195,5 @@ DOMAIN-SUFFIX,whatsappbrand.com
 DOMAIN-SUFFIX,graph.whatsapp.com
 DOMAIN-SUFFIX,graph.whatsapp.net
 #end include:whatsapp
+
+DOMAIN-SUFFIX,botim.me

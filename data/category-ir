@@ -4,7 +4,6 @@
 # Iran TLDs
 DOMAIN-SUFFIX,ir
 DOMAIN-SUFFIX,xn--mgba3a4f16a    #.ایران
-DOMAIN-SUFFIX,xn--mgba3a4fra    #.ايران
 
 #include:category-ads-ir
 # Iranian Advertising websites
@@ -117,7 +116,12 @@ DOMAIN-SUFFIX,wallex.ir
 DOMAIN-SUFFIX,faradars.org
 DOMAIN-SUFFIX,git.ir
 DOMAIN-SUFFIX,learnby.ir
+DOMAIN-SUFFIX,maktabkhooneh.org
+DOMAIN-SUFFIX,newdars.com
 DOMAIN-SUFFIX,toplearn.com
+
+# Music
+DOMAIN-SUFFIX,melotar.com
 
 # Webinar
 DOMAIN-SUFFIX,done.ir
@@ -206,6 +210,8 @@ DOMAIN-SUFFIX,irib.ir
 DOMAIN-SUFFIX,iribtv.ir
 DOMAIN-SUFFIX,irinn.ir
 DOMAIN-SUFFIX,jjtvn.ir
+DOMAIN-SUFFIX,melodify.app
+DOMAIN-SUFFIX,melodify.pw
 DOMAIN-SUFFIX,namava.ir
 DOMAIN-SUFFIX,qurantv.ir
 DOMAIN-SUFFIX,radio.ir
@@ -386,6 +392,7 @@ DOMAIN-SUFFIX,p30download.com
 DOMAIN-SUFFIX,p30download.ir
 DOMAIN-SUFFIX,parsonline.com
 DOMAIN-SUFFIX,parspack.com
+DOMAIN-SUFFIX,pazhnetwork.com
 DOMAIN-SUFFIX,picofile.com
 DOMAIN-SUFFIX,pishgaman.net
 DOMAIN-SUFFIX,rightel.ir

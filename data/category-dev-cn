@@ -21,6 +21,7 @@ DOMAIN-SUFFIX,baltamatica.com
 #include:cnblogs
 DOMAIN-SUFFIX,blogjava.net
 DOMAIN-SUFFIX,cnblogs.com
+DOMAIN-SUFFIX,cnblogs.vip
 DOMAIN-SUFFIX,cnitblog.com
 DOMAIN-SUFFIX,cnweblog.com
 DOMAIN-SUFFIX,cppblog.com
@@ -28,6 +29,7 @@ DOMAIN-SUFFIX,phpweblog.net
 DOMAIN-SUFFIX,teachblog.net
 #end include:cnblogs
 #include:csdn
+DOMAIN-SUFFIX,atomgit.com
 DOMAIN-SUFFIX,codechina.net
 DOMAIN-SUFFIX,csdn.com
 DOMAIN-SUFFIX,csdn.net
@@ -59,10 +61,6 @@ DOMAIN-SUFFIX,linyaps.org.cn
 DOMAIN-SUFFIX,uniontech.cn
 DOMAIN-SUFFIX,uniontech.com
 #end include:deepin
-#include:gitee
-DOMAIN-SUFFIX,gitee.com
-DOMAIN-SUFFIX,gitee.io
-#end include:gitee
 #include:goproxy
 # go mod proxy
 DOMAIN-SUFFIX,goproxy.cn
@@ -146,9 +144,11 @@ DOMAIN-SUFFIX,segmentfault.com
 DOMAIN-SUFFIX,sifou.com
 #end include:segmentfault
 #include:sxl
+# 上线了
 DOMAIN-SUFFIX,mysxl.cn
 DOMAIN-SUFFIX,sxl.cn
 DOMAIN-SUFFIX,sxlcdn.cn
+DOMAIN-SUFFIX,sxlcdn.com
 #end include:sxl
 #include:tencent-dev
 #include:cnb
@@ -185,6 +185,9 @@ DOMAIN-SUFFIX,u3d.cn
 DOMAIN-SUFFIX,unity.cn
 DOMAIN-SUFFIX,unitychina.cn
 
+# 上海蓝云网络科技有限公司 (世纪互联)
+DOMAIN-SUFFIX,unity3dcloud.cn
+
 # Ads/tracking
 DOMAIN-SUFFIX,ads.unitychina.cn
 DOMAIN-SUFFIX,splash-ads.cdn.unity.cn
@@ -194,9 +197,14 @@ DOMAIN-SUFFIX,unityads.unitychina.cn
 #end include:unitychina
 
 DOMAIN-SUFFIX,aardio.com
+DOMAIN-SUFFIX,cocos.com
+DOMAIN-SUFFIX,ejoy.com
 DOMAIN-SUFFIX,jinrishici.com
 DOMAIN-SUFFIX,kaihong.com
+DOMAIN-SUFFIX,oend.net
 DOMAIN-SUFFIX,openvela.com
+DOMAIN-SUFFIX,php.cn
 DOMAIN-SUFFIX,pingcode.com
 DOMAIN-SUFFIX,tipdm.org
+DOMAIN-SUFFIX,weboss.hk    #网博士
 DOMAIN-SUFFIX,zuidaima.com

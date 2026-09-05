@@ -156,16 +156,28 @@ DOMAIN-SUFFIX,ysx-mm.com
 #end include:category-bank-mm
 #include:category-bank-ru
 # Alfa Bank
+DOMAIN-SUFFIX,alfa.me
 DOMAIN-SUFFIX,alfabank.ru
 DOMAIN-SUFFIX,alfabank.st
 DOMAIN-SUFFIX,alfadirect.ru
 DOMAIN-SUFFIX,myapelsin.ru
-DOMAIN-SUFFIX,alfabank.oavdo.amc
+
+# BBR
+DOMAIN-SUFFIX,bbr.ru
 
 # BCS bank
 DOMAIN-SUFFIX,bcs.ru
 DOMAIN-SUFFIX,bcs-bank.ru
 DOMAIN-SUFFIX,broker.ru
+
+# Deutsche Bank
+DOMAIN-SUFFIX,dbmoscow.ru
+DOMAIN-SUFFIX,deutsche-bank.ru
+DOMAIN-SUFFIX,deutschebank.ru
+
+# DOM.RF
+DOMAIN-SUFFIX,domrfbank.ru
+DOMAIN-SUFFIX,xn--d1aqf.xn--p1ai
 
 # GazpromBank
 DOMAIN-SUFFIX,gazprombank.com
@@ -174,12 +186,21 @@ DOMAIN-SUFFIX,gazprombank.ru
 DOMAIN-SUFFIX,gid.ru
 DOMAIN-SUFFIX,gpb.ru
 
+# Mizuho Bank
+DOMAIN-SUFFIX,mhcb.ru
+DOMAIN-SUFFIX,mhcbr.ru
+
 # MKB
 DOMAIN-SUFFIX,mkb.ru
 
-# MTS Dengi
+# MTS
 DOMAIN-SUFFIX,dbo-dengi.online
+DOMAIN-SUFFIX,mtsbank.ru
 DOMAIN-SUFFIX,mtsdengi.ru
+
+# OTP Bank
+# Feature request: implement @ru in otpbank category
+DOMAIN-SUFFIX,otpbank.ru
 
 # PSB Bank
 DOMAIN-SUFFIX,payment.ru
@@ -189,6 +210,11 @@ DOMAIN-SUFFIX,psbank.ru
 
 # RUSSIA Bank
 DOMAIN-SUFFIX,abr.ru
+
+# Raiffeisen
+# Feature request: implement @ru in raiffeisenbank category
+DOMAIN-SUFFIX,raiffeisen-media.ru
+DOMAIN-SUFFIX,raiffeisen.ru
 
 # Russian Agricultural Bank
 DOMAIN-SUFFIX,rshb.ru
@@ -243,15 +269,16 @@ DOMAIN-SUFFIX,megamarket.ru
 DOMAIN-SUFFIX,megamarket.tech
 DOMAIN-SUFFIX,sberauto.com
 DOMAIN-SUFFIX,sberbank-insurance.ru
+DOMAIN-SUFFIX,sberbank-tele.com
+DOMAIN-SUFFIX,sberbankaktivno.ru
+DOMAIN-SUFFIX,sberbankins.ru
 DOMAIN-SUFFIX,sbercloud.ru
 DOMAIN-SUFFIX,sbercloud.tech
 DOMAIN-SUFFIX,sberdevices.ru
 DOMAIN-SUFFIX,sberdisk.ru
 DOMAIN-SUFFIX,sberfactoring.ru
-DOMAIN-SUFFIX,sberindex.ru
-DOMAIN-SUFFIX,sberbankaktivno.ru
-DOMAIN-SUFFIX,sberbankins.ru
 DOMAIN-SUFFIX,sberhealth.ru
+DOMAIN-SUFFIX,sberindex.ru
 DOMAIN-SUFFIX,sberleasing.ru
 DOMAIN-SUFFIX,sberlogistics.ru
 DOMAIN-SUFFIX,sbermegamarket.ru
@@ -337,6 +364,9 @@ DOMAIN-SUFFIX,sbertech.ru
 DOMAIN-SUFFIX,zvuk-b2b.com
 DOMAIN-SUFFIX,zvuk.com
 #end include:sber
+
+# Sovcombank
+DOMAIN-SUFFIX,sovcombank.ru
 
 # T-Bank (Tinkoff) and RosBank
 #include:tbank-ru
@@ -464,7 +494,77 @@ DOMAIN-SUFFIX,tochka.com
 
 # VTB Bank
 DOMAIN-SUFFIX,pochtabank.ru    #subsidiary
+DOMAIN-SUFFIX,vtb-direct.com
+DOMAIN-SUFFIX,vtb-grants.fut.ru
 DOMAIN-SUFFIX,vtb.ru
+DOMAIN-SUFFIX,vtbglobalperspectives.com
+
+# Zenit
+DOMAIN-SUFFIX,credit-zenit.ru
+DOMAIN-SUFFIX,zenit-card.ru
+DOMAIN-SUFFIX,zenit.ru
+
+# NSPK (QR-code payments)
+DOMAIN-SUFFIX,nspk.ru
+
+# Other
+DOMAIN-SUFFIX,absolutbank.ru
+DOMAIN-SUFFIX,akbars.ru
+DOMAIN-SUFFIX,alefbank.com
+DOMAIN-SUFFIX,ankb.ru
+DOMAIN-SUFFIX,asia-pay.ru
+DOMAIN-SUFFIX,atb.su
+DOMAIN-SUFFIX,autokreditbank.ru
+DOMAIN-SUFFIX,avangard.ru
+DOMAIN-SUFFIX,aversbank.ru
+DOMAIN-SUFFIX,bank-arzamas.ru
+DOMAIN-SUFFIX,bank-credit-suisse-moscow.ru
+DOMAIN-SUFFIX,bank131.com
+DOMAIN-SUFFIX,bankermak.ru
+DOMAIN-SUFFIX,best2pay.net
+DOMAIN-SUFFIX,bfa.ru
+DOMAIN-SUFFIX,blanc.ru
+DOMAIN-SUFFIX,bm-bank.ru
+DOMAIN-SUFFIX,bspb.ru
+DOMAIN-SUFFIX,commerzbank.ru
+DOMAIN-SUFFIX,finambank.ru
+DOMAIN-SUFFIX,forshtadt.ru
+DOMAIN-SUFFIX,homecredit.ru
+DOMAIN-SUFFIX,hva.im    #Sovcombank Halva
+DOMAIN-SUFFIX,ibamoscow.ru
+DOMAIN-SUFFIX,jpmorgan.ru
+DOMAIN-SUFFIX,korona.com
+DOMAIN-SUFFIX,kubankredit.ru
+DOMAIN-SUFFIX,mfk-bank.ru
+DOMAIN-SUFFIX,mvs-bank.ru
+DOMAIN-SUFFIX,noosferabank.ru
+DOMAIN-SUFFIX,primbank.ru
+DOMAIN-SUFFIX,prvbank.ru
+DOMAIN-SUFFIX,pskb.ru
+DOMAIN-SUFFIX,pvubank.com
+DOMAIN-SUFFIX,rbsgate.com
+DOMAIN-SUFFIX,rbsuat.com
+DOMAIN-SUFFIX,rencapbank.ru
+DOMAIN-SUFFIX,rencredit.ru
+DOMAIN-SUFFIX,rncoluminis.ru
+DOMAIN-SUFFIX,ru.ccb.com
+DOMAIN-SUFFIX,sbibankllc.ru
+DOMAIN-SUFFIX,seb.ru
+DOMAIN-SUFFIX,selkombank.ru
+DOMAIN-SUFFIX,sinara.ru
+DOMAIN-SUFFIX,slavbank.ru
+DOMAIN-SUFFIX,smbcr-bank.ru
+DOMAIN-SUFFIX,solid.ru
+DOMAIN-SUFFIX,ssb.msk.ru
+DOMAIN-SUFFIX,tagbank.ru
+DOMAIN-SUFFIX,tatsotsbank.ru
+DOMAIN-SUFFIX,tkbbank.ru
+DOMAIN-SUFFIX,ubs.com
+DOMAIN-SUFFIX,uralsib.ru
+DOMAIN-SUFFIX,vlb100.ru
+DOMAIN-SUFFIX,westernunion.ru
+DOMAIN-SUFFIX,yoobusiness.ru
+DOMAIN-SUFFIX,ziraatbank.ru
 #end include:category-bank-ru
 
 #include:fibank
@@ -474,15 +574,24 @@ DOMAIN-SUFFIX,myfin.bg
 #end include:fibank
 #include:futu
 # 富途证券
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futuau.com
 DOMAIN-SUFFIX,futuesop.com
 DOMAIN-SUFFIX,futufin.com
 DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futuhk1.com
+DOMAIN-SUFFIX,futuhk2.com
 DOMAIN-SUFFIX,futuhkapp.com
 DOMAIN-SUFFIX,futuhn.com
 DOMAIN-SUFFIX,futuholdings.com
 DOMAIN-SUFFIX,futuniuniu.com
 DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futuoa.com
+DOMAIN-SUFFIX,futusg.com
 DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,fututrade.com
 
 # 富途 moomoo 证券
 DOMAIN-SUFFIX,moomoo.com
@@ -558,6 +667,9 @@ DOMAIN-SUFFIX,hsbc.ca
 DOMAIN-SUFFIX,hsbc.co.jp
 DOMAIN-SUFFIX,hsbc.fr
 DOMAIN-SUFFIX,hsbctrinkaus.de
+
+# PayMe by HSBC
+DOMAIN-SUFFIX,vv1865.com
 #end include:hsbc
 #include:ibkr
 DOMAIN-SUFFIX,ibkr.ca
@@ -604,14 +716,21 @@ DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,itigergrowth.com
 DOMAIN-SUFFIX,itigergrowtha.com
 DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,skytigris.cn
+DOMAIN-SUFFIX,tigerbbs.cn
+DOMAIN-SUFFIX,tigerbbs.com
+DOMAIN-SUFFIX,xiaohu8.com
 #end include:itiger
 #include:longbridge
 DOMAIN-SUFFIX,longbridge.cloud
+DOMAIN-SUFFIX,longbridge.cn
 DOMAIN-SUFFIX,longbridge.com
 DOMAIN-SUFFIX,longbridge.global
 DOMAIN-SUFFIX,longbridge.hk
 DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridgehk.com
 DOMAIN-SUFFIX,longportapp.com
 
 # Site Assets
@@ -640,11 +759,19 @@ DOMAIN-SUFFIX,standardchartered.com
 DOMAIN,standchartbank.sc.omtrdc.net
 DOMAIN,standchartbank.tt.omtrdc.net
 #end include:standardchartered
+#include:stripe
+DOMAIN-SUFFIX,link.com
+DOMAIN-SUFFIX,stripe-terminal-local-reader.net
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+#end include:stripe
 #include:wise
 DOMAIN-SUFFIX,transferwise.com
 DOMAIN-SUFFIX,wise.com
 #end include:wise
 
 DOMAIN-SUFFIX,fxcorporate.com
+DOMAIN-SUFFIX,jivara.global
 DOMAIN-SUFFIX,mql5.com
 DOMAIN-SUFFIX,tradingview.com
