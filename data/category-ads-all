@@ -214,9 +214,6 @@ DOMAIN-SUFFIX,qwapi.com
 DOMAIN,stats.avito.ru
 #end include:avito
 #include:baidu @ads
-#include:zuoyebang
-DOMAIN-SUFFIX,syh.zybang.com
-#end include:zuoyebang
 DOMAIN-SUFFIX,adscdn.baidu.com
 DOMAIN-SUFFIX,adx.xiaodutv.com
 DOMAIN-SUFFIX,afd.baidu.com
@@ -1143,6 +1140,9 @@ DOMAIN,report.ap.yandex-net.ru
 DOMAIN-SUFFIX,crash2.zhihu.com
 DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com
 #end include:zhihu
+#include:zuoyebang @ads
+DOMAIN-SUFFIX,syh.zybang.com
+#end include:zuoyebang
 
 # Other domains for ads serving
 DOMAIN-SUFFIX,51.la
