@@ -585,6 +585,7 @@ RULE-SET,https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/
 | fox | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/fox |
 | fqnovel | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/fqnovel |
 | framer | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/framer |
+| freebuff | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/freebuff |
 | freecodecamp | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/freecodecamp |
 | freenode | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/freenode |
 | ft | https://raw.githubusercontent.com/Luan-X/Geosite2Surge/refs/heads/main/data/ft |
