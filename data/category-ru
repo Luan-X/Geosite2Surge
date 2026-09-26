@@ -1881,6 +1881,9 @@ DOMAIN-SUFFIX,servicepipe.ru
 DOMAIN-SUFFIX,sky.pro
 DOMAIN-SUFFIX,skyeng.ru
 #end include:skyeng
+#include:smena
+DOMAIN-SUFFIX,smena.cafe
+#end include:smena
 #include:tilda
 DOMAIN-SUFFIX,tilda.cc
 DOMAIN-SUFFIX,tilda.ru
