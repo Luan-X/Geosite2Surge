@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,sxlcdn.com
 #include:cnb
 # 腾讯 云原生构建
 DOMAIN-SUFFIX,cnb.cool
+DOMAIN-SUFFIX,cnb.space
 #end include:cnb
 #include:coding
 DOMAIN-SUFFIX,coding.me

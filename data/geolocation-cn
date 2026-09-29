@@ -253,6 +253,7 @@ DOMAIN-SUFFIX,sxlcdn.com
 #include:cnb
 # 腾讯 云原生构建
 DOMAIN-SUFFIX,cnb.cool
+DOMAIN-SUFFIX,cnb.space
 #end include:cnb
 #include:coding
 DOMAIN-SUFFIX,coding.me
@@ -9306,6 +9307,7 @@ DOMAIN-SUFFIX,wuliao.epro.sogou.com
 #include:tencent-dev
 #include:cnb
 DOMAIN-SUFFIX,cnb.cool
+DOMAIN-SUFFIX,cnb.space
 #end include:cnb
 #include:coding
 DOMAIN-SUFFIX,coding.me
