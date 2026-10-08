@@ -672,8 +672,6 @@ DOMAIN-SUFFIX,graph-fallback.instagram.com
 #include:threads
 #end include:threads
 #include:whatsapp
-DOMAIN-SUFFIX,graph.whatsapp.com
-DOMAIN-SUFFIX,graph.whatsapp.net
 #end include:whatsapp
 #end include:meta
 #include:microsoft @ads
@@ -684,12 +682,9 @@ DOMAIN-SUFFIX,bingads.com
 #end include:bing
 #include:github
 #include:github-copilot
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
 #end include:github-copilot
 #include:npmjs
 #end include:npmjs
-DOMAIN-SUFFIX,collector.github.com
 #end include:github
 #include:microsoft-dev
 #end include:microsoft-dev
@@ -746,8 +741,6 @@ DOMAIN-SUFFIX,ad.api.moji.com
 #end include:mdn
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads.mozilla.org
-DOMAIN,incoming.telemetry.mozilla.org
-DOMAIN,incoming-telemetry.thunderbird.net
 #end include:mozilla
 #include:mts-ru @ads
 DOMAIN-SUFFIX,a.mts.ru

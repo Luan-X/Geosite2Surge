@@ -291,9 +291,6 @@ DOMAIN-SUFFIX,ja.gamersky.com
 DOMAIN-SUFFIX,ja1.gamersky.com
 DOMAIN-SUFFIX,ja2.gamersky.com
 DOMAIN-SUFFIX,wmbd.gamersky.com
-DOMAIN-SUFFIX,collector.github.com
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,insights-collector.gog.com
 DOMAIN-SUFFIX,2mdn-cn.net
 DOMAIN-SUFFIX,2mdn.net
@@ -465,8 +462,6 @@ DOMAIN,sentry.popmechanic.ru
 DOMAIN-SUFFIX,ad.api.moji.com
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads.mozilla.org
-DOMAIN,incoming.telemetry.mozilla.org
-DOMAIN,incoming-telemetry.thunderbird.net
 DOMAIN-SUFFIX,browser.events.data.msn.cn
 DOMAIN-SUFFIX,browser.events.data.msn.com
 DOMAIN-SUFFIX,a.mts.ru
@@ -719,8 +714,6 @@ DOMAIN,advk.vk.ru
 DOMAIN,analytics.vk.ru
 DOMAIN,stats.vk-portal.net
 DOMAIN,target.vk.com
-DOMAIN-SUFFIX,graph.whatsapp.com
-DOMAIN-SUFFIX,graph.whatsapp.net
 DOMAIN,ads-gate.wildberries.ru
 DOMAIN,ads-media.wildberries.ru
 DOMAIN,ads.wildberries.ru
