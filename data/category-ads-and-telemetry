@@ -1,3 +1,5 @@
+# This file contains domains of both category-ads and category-telemetry.
+#include:category-ads
 # This file contains domains that clearly serving for ads or tracking.
 # We can not seperate ads and tracking domains clearly, so they are mixed together.
 #include:category-ads-ir
@@ -1300,3 +1302,29 @@ DOMAIN-SUFFIX,sensors.umetrip.com.cn
 
 # Freestar ads
 DOMAIN-SUFFIX,pub.network
+#end include:category-ads
+#include:category-telemetry
+# This file contains domains for software telemetry, error reporting and diagnostics.
+#include:github @telemetry
+#include:github-copilot
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+#end include:github-copilot
+#include:npmjs
+#end include:npmjs
+DOMAIN-SUFFIX,cafe.github.com
+DOMAIN-SUFFIX,collector.github.com
+#end include:github
+#include:github-copilot @telemetry
+DOMAIN,copilot-telemetry-service.githubusercontent.com
+DOMAIN,copilot-telemetry.githubusercontent.com
+#end include:github-copilot
+#include:mozilla @telemetry
+#include:firefox
+#end include:firefox
+#include:mdn
+#end include:mdn
+DOMAIN,incoming.telemetry.mozilla.org
+DOMAIN,incoming-telemetry.thunderbird.net
+#end include:mozilla
+#end include:category-telemetry

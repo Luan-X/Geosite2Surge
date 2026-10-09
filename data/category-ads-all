@@ -830,15 +830,17 @@ DOMAIN-SUFFIX,samsungads.com
 #end include:2gis
 #include:okko
 #end include:okko
+#include:sberbank
 DOMAIN-SUFFIX,ads.sber.ru
 DOMAIN-SUFFIX,clickstream.sberbank.ru
+DOMAIN,visor.sberbank.ru
+#end include:sberbank
 DOMAIN-SUFFIX,neon.click
 DOMAIN-SUFFIX,sbermarketing.ru
 DOMAIN,error-tracking.megamarket.tech
 DOMAIN,metrics.21-school.ru
 DOMAIN,sentry.sberauto.com
 DOMAIN,tracing-http.megamarket.tech
-DOMAIN,visor.sberbank.ru
 #end include:sber
 #include:sina @ads
 DOMAIN-SUFFIX,ad.sina.com.cn
@@ -1109,7 +1111,6 @@ DOMAIN-SUFFIX,metrika.yandex.net
 DOMAIN-SUFFIX,metrika.yandex.ru
 DOMAIN-SUFFIX,webvisor.com
 DOMAIN-SUFFIX,webvisor.org
-DOMAIN-SUFFIX,yabs.yandex.ru
 DOMAIN-SUFFIX,yads.tech
 DOMAIN-SUFFIX,yandex-metrica.ru
 DOMAIN-SUFFIX,yandexmetrica.com
